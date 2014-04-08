@@ -2,6 +2,7 @@
 
 # create the pcf files
 bdftopcf MonteCarloMedium.bdf > MonteCarloMedium.pcf
+bdftopcf MonteCarloPanel.bdf > MonteCarloPanel.pcf
 
 # install the fonts
 mkfontdir ~/.fonts/MonteCarlo
