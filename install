@@ -1,5 +1,15 @@
 #!/bin/sh
 
+#
+#  If you are not using one of the "normal" folders,
+# but a subfolder, don't forget to add it in your xorg.conf!
+#  Something like this:
+#
+# Section "Files"
+#     FontPath "/home/anon/.fonts/MonteCarlo"
+# EndSection
+#
+
 # create the pcf files
 bdftopcf MonteCarloMedium.bdf > MonteCarloMedium.pcf
 bdftopcf MonteCarloPanel.bdf > MonteCarloPanel.pcf
